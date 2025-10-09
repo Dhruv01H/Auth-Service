@@ -1,4 +1,4 @@
-package com.example.bean;
+package com.example.Auth_Service.bean;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
@@ -14,7 +14,6 @@ import lombok.Setter;
 @Table(name = "User")
 public class User {
     @Id
-  
     private int id;
 
     @Column(name="email")
